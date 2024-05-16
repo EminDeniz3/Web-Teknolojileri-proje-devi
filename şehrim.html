@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Şehrim</title>
+  <style>
+    div.carousel-item{
+      max-width: 1440px;
+      max-height: 540px;
+      padding-left: 30px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar">
@@ -15,23 +23,67 @@
     <a href="homepage.html">Giriş & Özgeçmiş</a>
     <a href="şehrim.html"> Şehrim</a>
     <a href="kültürel_miras.html"> Kültürel Miras</a>
-    <a href="#"> Login</a>
+    <a href="http://localhost/login/kayit.php"> Login</a>
     <a href="#"> İletişim Bilgileri</a>
+    <br>
   </nav>
   <h1 style="text-align: center;"><b>Şehrim</b></h1>
   <br>
+  <div id="slider" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="kezer.html">
+          <img src="https://pbs.twimg.com/media/FUZytgsX0AESYgg.jpg" class="d-block w-100" alt="Kezer">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="botan_vadisi.html"html>
+          <img src="https://www.siirt.bel.tr/kurumlar/siirt.bel.tr/Turizm/Botan-Vadisi/1.jpg" class="d-block w-100" alt="Botan Vadisi">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="tillo.html">
+          <img src="https://www.kulturportali.gov.tr/contents/images/20190712093707699_2017%2012%2006%20PHOTO%2000000010.jpg" class="d-block w-100" alt="Tillo">
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="rasıl_hacar.html">
+          <img src="https://www.artisiirt.com/dosya/yuklenenler/2021/09/22d660e5161d230ef8e97a1355943283.jpeg" class="d-block w-100" alt="Rasıl Hacar">
+        </a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="mt-4">
+    <h2>Mirasımız</h2>
+    <p><a href="kültürel_miras.html">Şehre ait kültürel Miraslar  daha fazla bilgi için tıklayın.</a></p>
+  </div>
   
-  
-        
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
   <div class="">
     <h2>Şehrim hakkında bilgiler</h2>
     <p><ul>
-      <li>Şehrin nüfusu : </li>
+      <li>Şehrin nüfusu : 331.670 </li>
       <li>Yerel diller: Türkçe,Arapça,Kürtçe</li>
-      <li>Gezilecek Yerler : </li>
-      <li>Şehrin meşhur ürünleri : </li>
+      <li>Gezilecek Yerler : Siirt Mağaraları,Botan Vadisi,Tillo Kalesi Cam Seyir Terası,Sağlarca Kaplıcası.</li>
+      <li>Şehrin meşhur ürünleri : Siirt fıstığı, Büryan, Zivzik Narı, Bıttım Sabunu,Perde Pilav.</li>
     </ul>
     </p>
+    <br>
+    <br>
+    <br>
 
   </div>    
    
